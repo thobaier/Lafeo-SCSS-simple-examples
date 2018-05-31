@@ -1,0 +1,12 @@
+version: '3'
+services:
+    application:
+        image: thomasbaier/scss:edge
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: scss
+        volumes:
+            - ./application:/var/www/html
+        ports:
+            - "80:80"

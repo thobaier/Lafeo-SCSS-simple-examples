@@ -1,0 +1,14 @@
+$block: block;
+$color: red;
+
+/*!comments*/
+span {
+  display:$block;
+}
+/*comments*/
+div {
+  display:$color;
+  span {
+    display:$block;
+  }
+}
