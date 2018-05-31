@@ -5,7 +5,7 @@ If you are interested to see it in action, follow these steps:
 
 ### clone this repository in a new folder (for example "scss")
 ```console
-git clone XXX@XXX scss
+git clone git@github.com:thobaier/Lafeo-SCSS-simple-examples.git scss
 ```
 
 ### Download dependencies
